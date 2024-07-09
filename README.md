@@ -1,4 +1,14 @@
 # Ludo em Java
+
+Comando para compilar: 
+```bash
+javac -d out\production\ludo src*.java -encoding UTF-8
+```
+Para executar: 
+```bash
+java -cp out\production\ludo Ludo
+```
+---
 Trabalho final da cadeira de Programação Orientada a Objeto
 
 Implementação do jogo LUDO (versão para até 4 jogadores), o qual tem como objetivo levar os quatro pinos dos jogadores, que ficam em um local de espera, até o meio do tabuleiro em sua respectiva cor (no começo do jogo cada jogador irá escolher uma das cores que serão mostradas na tela). O jogador que conseguir realizar isso primeiro é o vencedor. Neste jogo, são os dados que decidem quantas casas as peças irão andar a cada rodada.
